@@ -1,0 +1,60 @@
+[0.030s] Invoking command in '/home/rbe502/RBE550/build/pal_gripper_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_gripper_description
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.372s] -- The CXX compiler identification is GNU 11.4.0
+[0.394s] -- Detecting C compiler ABI info
+[0.638s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.659s] -- Detecting C compile features
+[0.660s] -- Detecting C compile features - done
+[0.668s] -- Detecting CXX compiler ABI info
+[0.941s] -- Detecting CXX compiler ABI info - done
+[0.960s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.962s] -- Detecting CXX compile features
+[0.964s] -- Detecting CXX compile features - done
+[0.968s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.842s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.009s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.086s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.284s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.354s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.365s] -- Added test 'lint_cmake' to check CMake code style
+[2.369s] -- Added test 'xmllint' to check XML markup files
+[2.375s] -- Configuring done
+[2.381s] -- Generating done
+[2.386s] -- Build files have been written to: /home/rbe502/RBE550/build/pal_gripper_description
+[2.395s] Invoked command in '/home/rbe502/RBE550/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_gripper_description
+[2.398s] Invoking command in '/home/rbe502/RBE550/build/pal_gripper_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_gripper_description -- -j2 -l2
+[2.522s] Invoked command in '/home/rbe502/RBE550/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_gripper_description -- -j2 -l2
+[2.638s] Invoking command in '/home/rbe502/RBE550/build/pal_gripper_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_gripper_description
+[2.663s] -- Install configuration: ""
+[2.664s] -- Execute custom install script
+[2.666s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/gazebo/gazebo.urdf.xacro
+[2.695s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link.stl
+[2.725s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link_collision.stl
+[2.753s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link.stl
+[2.782s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link_collision.stl
+[2.808s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/robots/gripper_test.urdf.xacro
+[2.837s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/robots/upload.launch
+[2.866s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/robots/upload_gripper.launch
+[2.894s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.gazebo.xacro
+[2.921s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.ros2_control.xacro
+[2.953s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.transmission.xacro
+[2.979s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.urdf.xacro
+[3.007s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/ros2_control/ros2_control.urdf.xacro
+[3.038s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/ament_index/resource_index/package_run_dependencies/pal_gripper_description
+[3.065s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/ament_index/resource_index/parent_prefix_path/pal_gripper_description
+[3.092s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.sh
+[3.120s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.dsv
+[3.150s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/environment/path.sh
+[3.179s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/environment/path.dsv
+[3.207s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/local_setup.bash
+[3.236s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/local_setup.sh
+[3.264s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/local_setup.zsh
+[3.291s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/local_setup.dsv
+[3.318s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/package.dsv
+[3.352s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/ament_index/resource_index/packages/pal_gripper_description
+[3.377s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.405s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig.cmake
+[3.435s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig-version.cmake
+[3.460s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_description/share/pal_gripper_description/package.xml
+[3.493s] Invoked command in '/home/rbe502/RBE550/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_gripper_description

@@ -1,0 +1,148 @@
+[0.048s] Invoking command in '/home/rbe502/RBE550/build/tiago_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/tiago_robot/tiago_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/tiago_description
+[0.252s] -- The C compiler identification is GNU 11.4.0
+[0.442s] -- The CXX compiler identification is GNU 11.4.0
+[0.464s] -- Detecting C compiler ABI info
+[0.721s] -- Detecting C compiler ABI info - done
+[0.744s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.745s] -- Detecting C compile features
+[0.748s] -- Detecting C compile features - done
+[0.755s] -- Detecting CXX compiler ABI info
+[1.037s] -- Detecting CXX compiler ABI info - done
+[1.056s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.057s] -- Detecting CXX compile features
+[1.058s] -- Detecting CXX compile features - done
+[1.066s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.052s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.516s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.582s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.650s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.679s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.679s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.680s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.680s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.743s] -- Found PythonExtra: .so  
+[3.709s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.729s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.733s] -- Added test 'lint_cmake' to check CMake code style
+[3.737s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.747s] -- Added test 'xmllint' to check XML markup files
+[3.753s] -- Configuring done
+[3.763s] -- Generating done
+[3.767s] -- Build files have been written to: /home/rbe502/RBE550/build/tiago_description
+[3.781s] Invoked command in '/home/rbe502/RBE550/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/tiago_robot/tiago_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/tiago_description
+[3.785s] Invoking command in '/home/rbe502/RBE550/build/tiago_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/tiago_description -- -j2 -l2
+[3.979s] Built target ament_cmake_python_symlink_tiago_description
+[4.540s] running egg_info
+[4.544s] creating tiago_description.egg-info
+[4.588s] writing tiago_description.egg-info/PKG-INFO
+[4.590s] writing dependency_links to tiago_description.egg-info/dependency_links.txt
+[4.591s] writing top-level names to tiago_description.egg-info/top_level.txt
+[4.592s] writing manifest file 'tiago_description.egg-info/SOURCES.txt'
+[4.718s] reading manifest file 'tiago_description.egg-info/SOURCES.txt'
+[4.720s] writing manifest file 'tiago_description.egg-info/SOURCES.txt'
+[4.792s] Built target ament_cmake_python_build_tiago_description_egg
+[4.826s] Invoked command in '/home/rbe502/RBE550/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/tiago_description -- -j2 -l2
+[4.952s] Invoking command in '/home/rbe502/RBE550/build/tiago_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/tiago_description
+[4.983s] -- Install configuration: ""
+[4.985s] -- Execute custom install script
+[4.985s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/environment/pythonpath.sh
+[5.013s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/environment/pythonpath.dsv
+[5.041s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.9.0-py3.10.egg-info/PKG-INFO
+[5.069s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.9.0-py3.10.egg-info/SOURCES.txt
+[5.098s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.9.0-py3.10.egg-info/dependency_links.txt
+[5.126s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description-4.9.0-py3.10.egg-info/top_level.txt
+[5.154s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/__init__.py
+[5.185s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/launch_arguments.py
+[5.211s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/tiago_launch_utils.py
+[5.239s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/launch/robot_state_publisher.launch.py
+[5.268s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/launch/show.launch.py
+[5.297s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_1.stl
+[5.327s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_1_collision.dae
+[5.357s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_1_color.png
+[5.385s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_1_normals.png
+[5.413s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_1_specular.png
+[5.444s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_2.stl
+[5.476s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_2_collision.dae
+[5.503s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_2_color.png
+[5.530s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_2_normals.png
+[5.558s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_2_specular.png
+[5.588s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_3.stl
+[5.617s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_3_collision.dae
+[5.643s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_3_color.png
+[5.671s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_3_normals.png
+[5.700s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_3_specular.png
+[5.728s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_4.stl
+[5.755s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_4_collision.dae
+[5.786s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_4_collision.stl
+[5.817s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_4_color.png
+[5.843s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_4_normals.png
+[5.872s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_4_specular.png
+[5.904s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_5-wrist-2010.stl
+[5.932s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_5-wrist-2017.stl
+[5.959s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_5_collision-wrist-2010.dae
+[5.991s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_5_collision-wrist-2017.dae
+[6.019s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_6-wrist-2010.stl
+[6.047s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_6-wrist-2017.stl
+[6.076s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_6_collision-wrist-2010.dae
+[6.107s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_6_collision-wrist-2017.dae
+[6.135s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_6_color.png
+[6.167s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_6_normals.png
+[6.198s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/arm/arm_6_specular.png
+[6.225s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/head/head_1.stl
+[6.249s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/head/head_1_collision.dae
+[6.275s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/head/head_2.stl
+[6.304s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/head/head_2_collision.dae
+[6.330s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/sensors/xtion_pro_live/xtion_pro_live.dae
+[6.358s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/sensors/xtion_pro_live/xtion_pro_live.png
+[6.388s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/torso/torso_fix.stl
+[6.415s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision.dae
+[6.440s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_core.dae
+[6.466s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_neck.dae
+[6.495s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_collision_shoulder.dae
+[6.526s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_with_arm.stl
+[6.552s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/meshes/torso/torso_lift_without_arm.stl
+[6.585s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/robots/tiago.urdf.xacro
+[6.611s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/ros2_control/gazebo_controller_manager_cfg.yaml
+[6.636s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/ros2_control/ros2_control.urdf.xacro
+[6.663s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/ros2_control/transmissions.urdf.xacro
+[6.694s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/arm/arm.ros2_control.xacro
+[6.721s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/arm/arm.urdf.xacro
+[6.746s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/arm/wrist.ros2_control.xacro
+[6.774s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/arm/wrist.urdf.xacro
+[6.804s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/calibration/calibration_constants.urdf.xacro
+[6.832s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/calibration/extrinsic_camera_calibration_constants.urdf.xacro
+[6.864s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/end_effector/end_effector.urdf.xacro
+[6.897s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/head/head.ros2_control.xacro
+[6.925s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/head/head.urdf.xacro
+[6.952s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.gazebo.xacro
+[6.984s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.ros2_control.xacro
+[7.027s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/sensors/ftsensor.urdf.xacro
+[7.058s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/sensors/openni.gazebo.xacro
+[7.086s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/sensors/orbbec_astra.urdf.xacro
+[7.120s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/sensors/xtion_pro_live.urdf.xacro
+[7.151s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/torso/torso.ros2_control.xacro
+[7.182s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/urdf/torso/torso.urdf.xacro
+[7.216s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/config/tiago.rviz
+[7.243s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/config/tiago_configuration.yaml
+[7.271s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/config/urdf.rviz
+[7.301s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/ament_index/resource_index/package_run_dependencies/tiago_description
+[7.331s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/ament_index/resource_index/parent_prefix_path/tiago_description
+[7.358s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/environment/ament_prefix_path.sh
+[7.388s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/environment/ament_prefix_path.dsv
+[7.416s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/environment/path.sh
+[7.444s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/environment/path.dsv
+[7.472s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/local_setup.bash
+[7.503s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/local_setup.sh
+[7.533s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/local_setup.zsh
+[7.560s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/local_setup.dsv
+[7.592s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/package.dsv
+[7.618s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/ament_index/resource_index/packages/tiago_description
+[7.647s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/cmake/tiago_descriptionConfig.cmake
+[7.676s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/cmake/tiago_descriptionConfig-version.cmake
+[7.706s] -- Symlinking: /home/rbe502/RBE550/install/tiago_description/share/tiago_description/package.xml
+[7.834s] Listing '/home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description'...
+[7.835s] Compiling '/home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/__init__.py'...
+[7.835s] Compiling '/home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/launch_arguments.py'...
+[7.835s] Compiling '/home/rbe502/RBE550/install/tiago_description/local/lib/python3.10/dist-packages/tiago_description/tiago_launch_utils.py'...
+[7.852s] Invoked command in '/home/rbe502/RBE550/build/tiago_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pmb2_description:/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_robotiq_description:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/tiago_description

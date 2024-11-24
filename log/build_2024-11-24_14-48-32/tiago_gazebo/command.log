@@ -1,0 +1,2 @@
+Invoking command in '/home/rbe502/RBE550/build/tiago_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/tiago_simulation/tiago_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/tiago_gazebo
+Invoked command in '/home/rbe502/RBE550/build/tiago_gazebo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/tiago_simulation/tiago_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/tiago_gazebo

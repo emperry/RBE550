@@ -1,0 +1,44 @@
+[0.026s] Invoking command in '/home/rbe502/RBE550/build/tiago_rgbd_sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/tiago_navigation/tiago_rgbd_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/tiago_rgbd_sensors
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.386s] -- The CXX compiler identification is GNU 11.4.0
+[0.410s] -- Detecting C compiler ABI info
+[0.643s] -- Detecting C compiler ABI info - done
+[0.661s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.664s] -- Detecting C compile features
+[0.664s] -- Detecting C compile features - done
+[0.672s] -- Detecting CXX compiler ABI info
+[0.950s] -- Detecting CXX compiler ABI info - done
+[0.970s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.971s] -- Detecting CXX compile features
+[0.972s] -- Detecting CXX compile features - done
+[0.978s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.835s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.998s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.294s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.300s] -- Added test 'lint_cmake' to check CMake code style
+[2.300s] -- Added test 'xmllint' to check XML markup files
+[2.303s] -- Configuring done
+[2.311s] -- Generating done
+[2.315s] -- Build files have been written to: /home/rbe502/RBE550/build/tiago_rgbd_sensors
+[2.329s] Invoked command in '/home/rbe502/RBE550/build/tiago_rgbd_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/tiago_navigation/tiago_rgbd_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/tiago_rgbd_sensors
+[2.330s] Invoking command in '/home/rbe502/RBE550/build/tiago_rgbd_sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/tiago_rgbd_sensors -- -j2 -l2
+[2.456s] Invoked command in '/home/rbe502/RBE550/build/tiago_rgbd_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/tiago_rgbd_sensors -- -j2 -l2
+[2.573s] Invoking command in '/home/rbe502/RBE550/build/tiago_rgbd_sensors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/tiago_rgbd_sensors
+[2.597s] -- Install configuration: ""
+[2.597s] -- Execute custom install script
+[2.598s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/ament_index/resource_index/package_run_dependencies/tiago_rgbd_sensors
+[2.632s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/ament_index/resource_index/parent_prefix_path/tiago_rgbd_sensors
+[2.659s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/environment/ament_prefix_path.sh
+[2.687s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/environment/ament_prefix_path.dsv
+[2.713s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/environment/path.sh
+[2.745s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/environment/path.dsv
+[2.772s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/local_setup.bash
+[2.798s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/local_setup.sh
+[2.830s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/local_setup.zsh
+[2.858s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/local_setup.dsv
+[2.884s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/package.dsv
+[2.913s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/ament_index/resource_index/packages/tiago_rgbd_sensors
+[2.944s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/cmake/tiago_rgbd_sensorsConfig.cmake
+[2.972s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/cmake/tiago_rgbd_sensorsConfig-version.cmake
+[3.000s] -- Symlinking: /home/rbe502/RBE550/install/tiago_rgbd_sensors/share/tiago_rgbd_sensors/package.xml
+[3.036s] Invoked command in '/home/rbe502/RBE550/build/tiago_rgbd_sensors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/tiago_rgbd_sensors

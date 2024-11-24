@@ -1,0 +1,41 @@
+[0.037s] Invoking command in '/home/rbe502/RBE550/build/pal_hey5': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_hey5/pal_hey5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_hey5
+[0.229s] -- The C compiler identification is GNU 11.4.0
+[0.416s] -- The CXX compiler identification is GNU 11.4.0
+[0.438s] -- Detecting C compiler ABI info
+[0.674s] -- Detecting C compiler ABI info - done
+[0.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.693s] -- Detecting C compile features
+[0.694s] -- Detecting C compile features - done
+[0.702s] -- Detecting CXX compiler ABI info
+[0.973s] -- Detecting CXX compiler ABI info - done
+[0.992s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.993s] -- Detecting CXX compile features
+[0.995s] -- Detecting CXX compile features - done
+[1.001s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.922s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.089s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.354s] -- Configuring done
+[2.362s] -- Generating done
+[2.365s] -- Build files have been written to: /home/rbe502/RBE550/build/pal_hey5
+[2.378s] Invoked command in '/home/rbe502/RBE550/build/pal_hey5' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_hey5/pal_hey5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_hey5
+[2.378s] Invoking command in '/home/rbe502/RBE550/build/pal_hey5': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_hey5 -- -j2 -l2
+[2.519s] Invoked command in '/home/rbe502/RBE550/build/pal_hey5' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_hey5 -- -j2 -l2
+[2.628s] Invoking command in '/home/rbe502/RBE550/build/pal_hey5': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_hey5
+[2.656s] -- Install configuration: ""
+[2.657s] -- Execute custom install script
+[2.657s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/ament_index/resource_index/package_run_dependencies/pal_hey5
+[2.687s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/ament_index/resource_index/parent_prefix_path/pal_hey5
+[2.717s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/environment/ament_prefix_path.sh
+[2.748s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/environment/ament_prefix_path.dsv
+[2.781s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/environment/path.sh
+[2.813s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/environment/path.dsv
+[2.843s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/local_setup.bash
+[2.876s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/local_setup.sh
+[2.905s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/local_setup.zsh
+[2.935s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/local_setup.dsv
+[2.965s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/package.dsv
+[2.996s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/ament_index/resource_index/packages/pal_hey5
+[3.027s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/cmake/pal_hey5Config.cmake
+[3.059s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/cmake/pal_hey5Config-version.cmake
+[3.085s] -- Symlinking: /home/rbe502/RBE550/install/pal_hey5/share/pal_hey5/package.xml
+[3.125s] Invoked command in '/home/rbe502/RBE550/build/pal_hey5' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_hey5_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_hey5_controller_configuration:/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_hey5

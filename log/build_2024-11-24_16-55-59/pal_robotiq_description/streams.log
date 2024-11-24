@@ -1,0 +1,81 @@
+[0.026s] Invoking command in '/home/rbe502/RBE550/build/pal_robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_robotiq_gripper/pal_robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_robotiq_description
+[0.231s] -- The C compiler identification is GNU 11.4.0
+[0.413s] -- The CXX compiler identification is GNU 11.4.0
+[0.436s] -- Detecting C compiler ABI info
+[0.686s] -- Detecting C compiler ABI info - done
+[0.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.711s] -- Detecting C compile features
+[0.711s] -- Detecting C compile features - done
+[0.717s] -- Detecting CXX compiler ABI info
+[1.003s] -- Detecting CXX compiler ABI info - done
+[1.024s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.024s] -- Detecting CXX compile features
+[1.024s] -- Detecting CXX compile features - done
+[1.031s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.921s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.081s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.324s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.376s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.389s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.390s] -- Added test 'lint_cmake' to check CMake code style
+[2.391s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.399s] -- Added test 'xmllint' to check XML markup files
+[2.401s] -- Configuring done
+[2.408s] -- Generating done
+[2.423s] -- Build files have been written to: /home/rbe502/RBE550/build/pal_robotiq_description
+[2.426s] Invoked command in '/home/rbe502/RBE550/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_robotiq_gripper/pal_robotiq_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_robotiq_description
+[2.432s] Invoking command in '/home/rbe502/RBE550/build/pal_robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_robotiq_description -- -j2 -l2
+[2.555s] Invoked command in '/home/rbe502/RBE550/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_robotiq_description -- -j2 -l2
+[2.669s] Invoking command in '/home/rbe502/RBE550/build/pal_robotiq_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_robotiq_description
+[2.691s] -- Install configuration: ""
+[2.691s] -- Execute custom install script
+[2.695s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_inner_finger.stl
+[2.723s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_inner_knuckle.stl
+[2.752s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_outer_finger.stl
+[2.779s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_140_outer_knuckle.stl
+[2.805s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_base_link.stl
+[2.837s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_inner_finger.dae
+[2.863s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_inner_knuckle.dae
+[2.889s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_outer_finger.dae
+[2.919s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_85_outer_knuckle.dae
+[2.949s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_base_link.stl
+[2.976s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/collision/robotiq_coupling.stl
+[3.003s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/pal_robotiq_coupling.stl
+[3.036s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_inner_finger.stl
+[3.060s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_inner_knuckle.stl
+[3.087s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_outer_finger.stl
+[3.114s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_140_outer_knuckle.stl
+[3.145s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_inner_finger.dae
+[3.171s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_inner_knuckle.dae
+[3.198s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_outer_finger.dae
+[3.230s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_outer_knuckle.dae
+[3.257s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_85_pad.dae
+[3.287s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_base_link.stl
+[3.313s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/meshes/visual/robotiq_coupling.stl
+[3.344s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_2f_140_gripper.urdf.xacro
+[3.371s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_2f_85_gripper.urdf.xacro
+[3.397s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/robots/pal_robotiq_epick_gripper.urdf.xacro
+[3.429s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/urdf/grasping_frames.xacro
+[3.455s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq.ros2_control.xacro
+[3.482s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq.transmission.xacro
+[3.510s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq_140_gripper.urdf.xacro
+[3.539s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/urdf/robotiq_85_gripper.urdf.xacro
+[3.568s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/launch/robot_state_publisher.launch.py
+[3.594s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/launch/show.launch.py
+[3.624s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/config/pal_robotiq_urdf.rviz
+[3.652s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/ament_index/resource_index/package_run_dependencies/pal_robotiq_description
+[3.680s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/ament_index/resource_index/parent_prefix_path/pal_robotiq_description
+[3.706s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/environment/ament_prefix_path.sh
+[3.738s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/environment/ament_prefix_path.dsv
+[3.765s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/environment/path.sh
+[3.794s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/environment/path.dsv
+[3.832s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.bash
+[3.857s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.sh
+[3.885s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.zsh
+[3.907s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/local_setup.dsv
+[3.927s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/package.dsv
+[3.956s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/ament_index/resource_index/packages/pal_robotiq_description
+[3.977s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/cmake/pal_robotiq_descriptionConfig.cmake
+[4.002s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/cmake/pal_robotiq_descriptionConfig-version.cmake
+[4.032s] -- Symlinking: /home/rbe502/RBE550/install/pal_robotiq_description/share/pal_robotiq_description/package.xml
+[4.062s] Invoked command in '/home/rbe502/RBE550/build/pal_robotiq_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_robotiq_description

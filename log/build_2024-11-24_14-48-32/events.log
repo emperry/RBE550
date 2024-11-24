@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000701] (tiago_gazebo) JobQueued: {'identifier': 'tiago_gazebo', 'dependencies': OrderedDict()}
+[0.000854] (tiago_simulation) JobQueued: {'identifier': 'tiago_simulation', 'dependencies': OrderedDict([('tiago_gazebo', '/home/rbe502/RBE550/install/tiago_gazebo')])}
+[0.000920] (tiago_gazebo) JobStarted: {'identifier': 'tiago_gazebo'}
+[0.048078] (tiago_gazebo) JobProgress: {'identifier': 'tiago_gazebo', 'progress': 'cmake'}
+[0.048969] (tiago_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/rbe502/RBE550/src/tiago_simulation/tiago_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/tiago_gazebo'], 'cwd': '/home/rbe502/RBE550/build/tiago_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'rbe502'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rbe502'), ('OLDPWD', '/home/rbe502/RBE550/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1498'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rbe502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rbe502'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/rbe502/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rbe502-virtual-machine:@/tmp/.ICE-unix/1218,unix/rbe502-virtual-machine:/tmp/.ICE-unix/1218'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8c8b875c_7242_48ee_af0d_88fc42d44c0d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7HRNX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rbe502/RBE550/build/tiago_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097462] (-) TimerEvent: {}
+[0.198262] (-) TimerEvent: {}
+[0.299146] (-) TimerEvent: {}
+[0.400130] (-) TimerEvent: {}
+[0.501416] (-) TimerEvent: {}
+[0.580276] (tiago_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601889] (-) TimerEvent: {}
+[0.704148] (-) TimerEvent: {}
+[0.804758] (-) TimerEvent: {}
+[0.906809] (-) TimerEvent: {}
+[0.967270] (tiago_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.007082] (-) TimerEvent: {}
+[1.011055] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.107243] (-) TimerEvent: {}
+[1.209733] (-) TimerEvent: {}
+[1.269819] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.285624] (tiago_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.287651] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.290892] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.302784] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.310061] (-) TimerEvent: {}
+[1.410777] (-) TimerEvent: {}
+[1.511707] (-) TimerEvent: {}
+[1.567441] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.585699] (tiago_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.586449] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.587722] (tiago_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.598658] (tiago_gazebo) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.612106] (-) TimerEvent: {}
+[1.713323] (-) TimerEvent: {}
+[1.814232] (-) TimerEvent: {}
+[1.914760] (-) TimerEvent: {}
+[2.015592] (-) TimerEvent: {}
+[2.116553] (-) TimerEvent: {}
+[2.217444] (-) TimerEvent: {}
+[2.318161] (-) TimerEvent: {}
+[2.418925] (-) TimerEvent: {}
+[2.508464] (tiago_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.519252] (-) TimerEvent: {}
+[2.620195] (-) TimerEvent: {}
+[2.721147] (-) TimerEvent: {}
+[2.732507] (tiago_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.821426] (-) TimerEvent: {}
+[2.922267] (-) TimerEvent: {}
+[3.023192] (-) TimerEvent: {}
+[3.066188] (tiago_gazebo) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[3.078816] (tiago_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.123510] (-) TimerEvent: {}
+[3.175807] (tiago_gazebo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.223804] (-) TimerEvent: {}
+[3.236777] (tiago_gazebo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.281574] (tiago_gazebo) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.282610] (tiago_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.282874] (tiago_gazebo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.283010] (tiago_gazebo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.324143] (-) TimerEvent: {}
+[3.341756] (tiago_gazebo) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.424650] (-) TimerEvent: {}
+[3.525692] (-) TimerEvent: {}
+[3.603928] (tiago_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.626242] (-) TimerEvent: {}
+[3.626777] (tiago_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.672807] (tiago_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.726583] (-) TimerEvent: {}
+[3.744864] (tiago_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.826967] (-) TimerEvent: {}
+[3.836425] (tiago_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.927534] (-) TimerEvent: {}
+[4.028142] (-) TimerEvent: {}
+[4.128624] (-) TimerEvent: {}
+[4.131621] (tiago_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.148061] (tiago_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.228902] (-) TimerEvent: {}
+[4.329744] (-) TimerEvent: {}
+[4.430618] (-) TimerEvent: {}
+[4.531239] (-) TimerEvent: {}
+[4.540791] (tiago_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.621034] (tiago_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.631464] (-) TimerEvent: {}
+[4.732357] (-) TimerEvent: {}
+[4.748350] (tiago_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.798869] (tiago_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.832665] (-) TimerEvent: {}
+[4.933573] (-) TimerEvent: {}
+[5.034886] (-) TimerEvent: {}
+[5.107647] (tiago_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.108530] (tiago_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.135161] (-) TimerEvent: {}
+[5.235727] (-) TimerEvent: {}
+[5.335721] (tiago_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.336024] (-) TimerEvent: {}
+[5.339065] (tiago_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.436379] (-) TimerEvent: {}
+[5.537362] (-) TimerEvent: {}
+[5.638267] (-) TimerEvent: {}
+[5.739170] (-) TimerEvent: {}
+[5.840176] (-) TimerEvent: {}
+[5.940808] (-) TimerEvent: {}
+[6.041284] (-) TimerEvent: {}
+[6.142109] (-) TimerEvent: {}
+[6.243126] (-) TimerEvent: {}
+[6.303093] (tiago_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[6.303544] (tiago_gazebo) StderrLine: {'line': b'  By not providing "Findplay_motion2_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[6.303728] (tiago_gazebo) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[6.303862] (tiago_gazebo) StderrLine: {'line': b'  "play_motion2_msgs", but CMake did not find one.\n'}
+[6.303978] (tiago_gazebo) StderrLine: {'line': b'\n'}
+[6.304109] (tiago_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "play_motion2_msgs"\n'}
+[6.304241] (tiago_gazebo) StderrLine: {'line': b'  with any of the following names:\n'}
+[6.304367] (tiago_gazebo) StderrLine: {'line': b'\n'}
+[6.304520] (tiago_gazebo) StderrLine: {'line': b'    play_motion2_msgsConfig.cmake\n'}
+[6.304662] (tiago_gazebo) StderrLine: {'line': b'    play_motion2_msgs-config.cmake\n'}
+[6.304793] (tiago_gazebo) StderrLine: {'line': b'\n'}
+[6.304929] (tiago_gazebo) StderrLine: {'line': b'  Add the installation prefix of "play_motion2_msgs" to CMAKE_PREFIX_PATH or\n'}
+[6.305059] (tiago_gazebo) StderrLine: {'line': b'  set "play_motion2_msgs_DIR" to a directory containing one of the above\n'}
+[6.305205] (tiago_gazebo) StderrLine: {'line': b'  files.  If "play_motion2_msgs" provides a separate development package or\n'}
+[6.305335] (tiago_gazebo) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[6.305464] (tiago_gazebo) StderrLine: {'line': b'\n'}
+[6.305627] (tiago_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[6.305758] (tiago_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.305905] (tiago_gazebo) StdoutLine: {'line': b'See also "/home/rbe502/RBE550/build/tiago_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[6.325004] (tiago_gazebo) CommandEnded: {'returncode': 1}
+[6.343276] (-) TimerEvent: {}
+[6.420267] (tiago_gazebo) JobEnded: {'identifier': 'tiago_gazebo', 'rc': 1}
+[6.432829] (tiago_simulation) JobSkipped: {'identifier': 'tiago_simulation'}
+[6.432954] (-) EventReactorShutdown: {}

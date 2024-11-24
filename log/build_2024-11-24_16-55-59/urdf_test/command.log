@@ -1,0 +1,6 @@
+Invoking command in '/home/rbe502/RBE550/build/urdf_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/urdf_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/urdf_test
+Invoked command in '/home/rbe502/RBE550/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/urdf_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/urdf_test
+Invoking command in '/home/rbe502/RBE550/build/urdf_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/urdf_test -- -j2 -l2
+Invoked command in '/home/rbe502/RBE550/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/urdf_test -- -j2 -l2
+Invoking command in '/home/rbe502/RBE550/build/urdf_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/urdf_test
+Invoked command in '/home/rbe502/RBE550/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/urdf_test

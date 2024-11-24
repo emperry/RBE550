@@ -1,0 +1,41 @@
+[0.041s] Invoking command in '/home/rbe502/RBE550/build/pal_navigation_cfg': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/pal_navigation_cfg_public/pal_navigation_cfg_public -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_navigation_cfg
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.402s] -- The CXX compiler identification is GNU 11.4.0
+[0.425s] -- Detecting C compiler ABI info
+[0.691s] -- Detecting C compiler ABI info - done
+[0.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.712s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.721s] -- Detecting CXX compiler ABI info
+[0.996s] -- Detecting CXX compiler ABI info - done
+[1.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.016s] -- Detecting CXX compile features
+[1.017s] -- Detecting CXX compile features - done
+[1.023s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.911s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.074s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.325s] -- Configuring done
+[2.335s] -- Generating done
+[2.337s] -- Build files have been written to: /home/rbe502/RBE550/build/pal_navigation_cfg
+[2.350s] Invoked command in '/home/rbe502/RBE550/build/pal_navigation_cfg' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/pal_navigation_cfg_public/pal_navigation_cfg_public -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_navigation_cfg
+[2.353s] Invoking command in '/home/rbe502/RBE550/build/pal_navigation_cfg': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_navigation_cfg -- -j2 -l2
+[2.473s] Invoked command in '/home/rbe502/RBE550/build/pal_navigation_cfg' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_navigation_cfg -- -j2 -l2
+[2.581s] Invoking command in '/home/rbe502/RBE550/build/pal_navigation_cfg': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_navigation_cfg
+[2.608s] -- Install configuration: ""
+[2.611s] -- Execute custom install script
+[2.611s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/ament_index/resource_index/package_run_dependencies/pal_navigation_cfg
+[2.642s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/ament_index/resource_index/parent_prefix_path/pal_navigation_cfg
+[2.666s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/environment/ament_prefix_path.sh
+[2.693s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/environment/ament_prefix_path.dsv
+[2.721s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/environment/path.sh
+[2.750s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/environment/path.dsv
+[2.779s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/local_setup.bash
+[2.802s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/local_setup.sh
+[2.830s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/local_setup.zsh
+[2.861s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/local_setup.dsv
+[2.885s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/package.dsv
+[2.913s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/ament_index/resource_index/packages/pal_navigation_cfg
+[2.942s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/cmake/pal_navigation_cfgConfig.cmake
+[2.968s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/cmake/pal_navigation_cfgConfig-version.cmake
+[2.997s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg/share/pal_navigation_cfg/package.xml
+[3.026s] Invoked command in '/home/rbe502/RBE550/build/pal_navigation_cfg' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_navigation_cfg_bringup:/home/rbe502/RBE550/install/pal_navigation_cfg_params:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_navigation_cfg

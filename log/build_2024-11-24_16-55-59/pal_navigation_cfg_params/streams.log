@@ -1,0 +1,49 @@
+[0.036s] Invoking command in '/home/rbe502/RBE550/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_navigation_cfg_public/pal_navigation_cfg_params -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_navigation_cfg_params
+[0.226s] -- The C compiler identification is GNU 11.4.0
+[0.414s] -- The CXX compiler identification is GNU 11.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.681s] -- Detecting C compiler ABI info - done
+[0.696s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.698s] -- Detecting C compile features
+[0.698s] -- Detecting C compile features - done
+[0.706s] -- Detecting CXX compiler ABI info
+[0.993s] -- Detecting CXX compiler ABI info - done
+[1.012s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.013s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.020s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.989s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.411s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.460s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.464s] -- Added test 'lint_cmake' to check CMake code style
+[2.466s] -- Added test 'xmllint' to check XML markup files
+[2.470s] -- Configuring done
+[2.478s] -- Generating done
+[2.481s] -- Build files have been written to: /home/rbe502/RBE550/build/pal_navigation_cfg_params
+[2.494s] Invoked command in '/home/rbe502/RBE550/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_navigation_cfg_public/pal_navigation_cfg_params -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_navigation_cfg_params
+[2.494s] Invoking command in '/home/rbe502/RBE550/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_navigation_cfg_params -- -j2 -l2
+[2.642s] Invoked command in '/home/rbe502/RBE550/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_navigation_cfg_params -- -j2 -l2
+[2.775s] Invoking command in '/home/rbe502/RBE550/build/pal_navigation_cfg_params': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_navigation_cfg_params
+[2.807s] -- Install configuration: ""
+[2.810s] -- Execute custom install script
+[2.812s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/omni_base_nav2.yaml
+[2.841s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/pmb2_nav2.yaml
+[2.870s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/tiago_dual_nav2.yaml
+[2.903s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/params/tiago_nav2.yaml
+[2.943s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/ament_index/resource_index/package_run_dependencies/pal_navigation_cfg_params
+[2.972s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/ament_index/resource_index/parent_prefix_path/pal_navigation_cfg_params
+[3.008s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/ament_prefix_path.sh
+[3.035s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/ament_prefix_path.dsv
+[3.064s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/path.sh
+[3.094s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/environment/path.dsv
+[3.128s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.bash
+[3.156s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.sh
+[3.185s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.zsh
+[3.219s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/local_setup.dsv
+[3.248s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/package.dsv
+[3.278s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/ament_index/resource_index/packages/pal_navigation_cfg_params
+[3.313s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/cmake/pal_navigation_cfg_paramsConfig.cmake
+[3.342s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/cmake/pal_navigation_cfg_paramsConfig-version.cmake
+[3.375s] -- Symlinking: /home/rbe502/RBE550/install/pal_navigation_cfg_params/share/pal_navigation_cfg_params/package.xml
+[3.413s] Invoked command in '/home/rbe502/RBE550/build/pal_navigation_cfg_params' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_navigation_cfg_params

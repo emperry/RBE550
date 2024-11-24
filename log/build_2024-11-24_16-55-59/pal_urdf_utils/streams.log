@@ -1,0 +1,48 @@
+[0.523s] Invoking command in '/home/rbe502/RBE550/build/pal_urdf_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_urdf_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_urdf_utils
+[0.702s] -- The C compiler identification is GNU 11.4.0
+[0.871s] -- The CXX compiler identification is GNU 11.4.0
+[0.892s] -- Detecting C compiler ABI info
+[1.099s] -- Detecting C compiler ABI info - done
+[1.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.119s] -- Detecting C compile features
+[1.121s] -- Detecting C compile features - done
+[1.127s] -- Detecting CXX compiler ABI info
+[1.395s] -- Detecting CXX compiler ABI info - done
+[1.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.421s] -- Detecting CXX compile features
+[1.425s] -- Detecting CXX compile features - done
+[1.428s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.351s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.519s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.768s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.839s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.861s] -- Added test 'lint_cmake' to check CMake code style
+[2.874s] -- Added test 'xmllint' to check XML markup files
+[2.884s] -- Configuring done
+[2.892s] -- Generating done
+[2.893s] -- Build files have been written to: /home/rbe502/RBE550/build/pal_urdf_utils
+[2.905s] Invoked command in '/home/rbe502/RBE550/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_urdf_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_urdf_utils
+[2.908s] Invoking command in '/home/rbe502/RBE550/build/pal_urdf_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_urdf_utils -- -j2 -l2
+[3.048s] Invoked command in '/home/rbe502/RBE550/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_urdf_utils -- -j2 -l2
+[3.190s] Invoking command in '/home/rbe502/RBE550/build/pal_urdf_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_urdf_utils
+[3.217s] -- Install configuration: ""
+[3.219s] -- Execute custom install script
+[3.220s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/urdf/deg_to_rad.urdf.xacro
+[3.253s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/urdf/materials.urdf.xacro
+[3.283s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/urdf/pi.urdf.xacro
+[3.307s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/ament_index/resource_index/package_run_dependencies/pal_urdf_utils
+[3.338s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/ament_index/resource_index/parent_prefix_path/pal_urdf_utils
+[3.368s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.sh
+[3.396s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/environment/ament_prefix_path.dsv
+[3.421s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.sh
+[3.453s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/environment/path.dsv
+[3.481s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.bash
+[3.505s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.sh
+[3.535s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.zsh
+[3.566s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/local_setup.dsv
+[3.590s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/package.dsv
+[3.618s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/ament_index/resource_index/packages/pal_urdf_utils
+[3.649s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig.cmake
+[3.678s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/cmake/pal_urdf_utilsConfig-version.cmake
+[3.701s] -- Symlinking: /home/rbe502/RBE550/install/pal_urdf_utils/share/pal_urdf_utils/package.xml
+[3.739s] Invoked command in '/home/rbe502/RBE550/build/pal_urdf_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_urdf_utils

@@ -1,0 +1,147 @@
+[0.041s] Invoking command in '/home/rbe502/RBE550/build/pmb2_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/pmb2_robot/pmb2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pmb2_description
+[0.232s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting C compiler ABI info
+[0.674s] -- Detecting C compiler ABI info - done
+[0.695s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.696s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.703s] -- Detecting CXX compiler ABI info
+[0.977s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.999s] -- Detecting CXX compile features
+[1.000s] -- Detecting CXX compile features - done
+[1.005s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.940s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.112s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.368s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.430s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.494s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.526s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.527s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.528s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.528s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.591s] -- Found PythonExtra: .so  
+[3.560s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.584s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.588s] -- Added test 'lint_cmake' to check CMake code style
+[3.590s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.606s] -- Added test 'xmllint' to check XML markup files
+[3.608s] -- Configuring done
+[3.621s] -- Generating done
+[3.624s] -- Build files have been written to: /home/rbe502/RBE550/build/pmb2_description
+[3.642s] Invoked command in '/home/rbe502/RBE550/build/pmb2_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rbe502/RBE550/src/pmb2_robot/pmb2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pmb2_description
+[3.648s] Invoking command in '/home/rbe502/RBE550/build/pmb2_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/pmb2_description -- -j2 -l2
+[3.864s] Built target ament_cmake_python_symlink_pmb2_description
+[4.429s] running egg_info
+[4.433s] creating pmb2_description.egg-info
+[4.475s] writing pmb2_description.egg-info/PKG-INFO
+[4.475s] writing dependency_links to pmb2_description.egg-info/dependency_links.txt
+[4.476s] writing top-level names to pmb2_description.egg-info/top_level.txt
+[4.476s] writing manifest file 'pmb2_description.egg-info/SOURCES.txt'
+[4.600s] reading manifest file 'pmb2_description.egg-info/SOURCES.txt'
+[4.602s] writing manifest file 'pmb2_description.egg-info/SOURCES.txt'
+[4.681s] Built target ament_cmake_python_build_pmb2_description_egg
+[4.712s] Invoked command in '/home/rbe502/RBE550/build/pmb2_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rbe502/RBE550/build/pmb2_description -- -j2 -l2
+[4.845s] Invoking command in '/home/rbe502/RBE550/build/pmb2_description': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/pmb2_description
+[4.873s] -- Install configuration: ""
+[4.874s] -- Execute custom install script
+[4.876s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/environment/pythonpath.sh
+[4.904s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/environment/pythonpath.dsv
+[4.936s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.4.0-py3.10.egg-info/PKG-INFO
+[4.968s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.4.0-py3.10.egg-info/SOURCES.txt
+[4.993s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.4.0-py3.10.egg-info/dependency_links.txt
+[5.022s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.4.0-py3.10.egg-info/top_level.txt
+[5.055s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description/__init__.py
+[5.084s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description/launch_arguments.py
+[5.114s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/rviz/pmb2.rviz
+[5.147s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/launch/robot_state_publisher.launch.py
+[5.176s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/launch/show.launch.py
+[5.207s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/base/base.stl
+[5.238s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/base/base_collision.dae
+[5.269s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/base/base_dock_link.stl
+[5.296s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/base/base_ring.stl
+[5.327s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/base/high_resolution/base.stl
+[5.359s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/base/high_resolution/base_collision.stl
+[5.387s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/cameras_add_on/cameras_add_on.stl
+[5.416s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/cameras_add_on/cameras_add_on_collision.stl
+[5.450s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/dock/dock.stl
+[5.478s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/dock/dock_collision.stl
+[5.506s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/objects/antenna.stl
+[5.540s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/objects/cover.stl
+[5.569s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/objects/high_resolution/cover.stl
+[5.598s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/bumper.stl
+[5.627s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/bumper_collision.stl
+[5.663s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/elp_camera.stl
+[5.693s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/bumper.stl
+[5.720s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/hokuyo_urg_04lx_ug01.stl
+[5.754s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/sick_tim551.stl
+[5.779s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/srf05.stl
+[5.807s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/xtion_pro_live.stl
+[5.837s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/hokuyo_urg_04lx_ug01.stl
+[5.868s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/sick_tim551.stl
+[5.894s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/srf05.stl
+[5.922s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/structure_sensor.stl
+[5.957s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/sensors/xtion_pro_live.dae
+[5.981s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/wheels/caster_1.stl
+[6.009s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/wheels/caster_2.stl
+[6.040s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/wheels/high_resolution/caster_1.stl
+[6.070s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/wheels/high_resolution/caster_2.stl
+[6.097s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/wheels/high_resolution/wheel.stl
+[6.125s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/meshes/wheels/wheel.stl
+[6.158s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/config/pmb2_configuration.yaml
+[6.187s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/robots/pmb2.urdf.xacro
+[6.215s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/ros2_control/gazebo_controller_manager_cfg.yaml
+[6.249s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/ros2_control/ros2_control.urdf.xacro
+[6.276s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/base/base.gazebo.xacro
+[6.303s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/base/base.urdf.xacro
+[6.331s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/base/base_sensors.urdf.xacro
+[6.364s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/cameras_add_on/cameras_add_on.urdf.xacro
+[6.391s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/dock/dock.urdf.xacro
+[6.419s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/objects/antenna.urdf.xacro
+[6.451s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/objects/cover.urdf.xacro
+[6.480s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/bumper.gazebo.xacro
+[6.506s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/bumper.urdf.xacro
+[6.534s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/courier.urdf.xacro
+[6.567s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/elp_rgb.gazebo.xacro
+[6.593s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/elp_rgb.urdf.xacro
+[6.621s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/hokuyo_urg_04lx_ug01_laser.gazebo.xacro
+[6.654s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/hokuyo_urg_04lx_ug01_laser.urdf.xacro
+[6.683s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/imu.gazebo.xacro
+[6.712s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/imu.urdf.xacro
+[6.743s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/microphone.urdf.xacro
+[6.773s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/range.gazebo.xacro
+[6.801s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/range.urdf.xacro
+[6.829s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/sensors.ros2_control.xacro
+[6.862s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim551_laser.gazebo.xacro
+[6.889s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim551_laser.urdf.xacro
+[6.917s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim561_laser.gazebo.xacro
+[6.949s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim561_laser.urdf.xacro
+[6.978s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim571_laser.gazebo.xacro
+[7.006s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim571_laser.urdf.xacro
+[7.035s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/structure_sensor.gazebo.xacro
+[7.072s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/sensors/structure_sensor.urdf.xacro
+[7.101s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/wheels/caster.gazebo.xacro
+[7.126s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/wheels/caster.urdf.xacro
+[7.153s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/wheels/wheel.gazebo.xacro
+[7.179s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/wheels/wheel.ros2_control.xacro
+[7.204s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/urdf/wheels/wheel.urdf.xacro
+[7.230s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/ament_index/resource_index/package_run_dependencies/pmb2_description
+[7.260s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/ament_index/resource_index/parent_prefix_path/pmb2_description
+[7.288s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/environment/ament_prefix_path.sh
+[7.313s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/environment/ament_prefix_path.dsv
+[7.340s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/environment/path.sh
+[7.365s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/environment/path.dsv
+[7.392s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/local_setup.bash
+[7.418s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/local_setup.sh
+[7.445s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/local_setup.zsh
+[7.470s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/local_setup.dsv
+[7.497s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/package.dsv
+[7.524s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/ament_index/resource_index/packages/pmb2_description
+[7.552s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/cmake/pmb2_descriptionConfig.cmake
+[7.580s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/cmake/pmb2_descriptionConfig-version.cmake
+[7.608s] -- Symlinking: /home/rbe502/RBE550/install/pmb2_description/share/pmb2_description/package.xml
+[7.739s] Listing '/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description'...
+[7.740s] Compiling '/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description/__init__.py'...
+[7.741s] Compiling '/home/rbe502/RBE550/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description/launch_arguments.py'...
+[7.761s] Invoked command in '/home/rbe502/RBE550/build/pmb2_description' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/urdf_test:/home/rbe502/RBE550/install/pal_urdf_utils:/opt/ros/humble PYTHONPATH=/home/rbe502/RBE550/install/urdf_test/local/lib/python3.10/dist-packages:/home/rbe502/RBE550/build/launch_pal:/home/rbe502/RBE550/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rbe502/RBE550/build/pmb2_description

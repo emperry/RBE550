@@ -1,0 +1,50 @@
+[0.047s] Invoking command in '/home/rbe502/RBE550/build/pal_gripper_simulation': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_gripper/pal_gripper_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_gripper_simulation
+[0.228s] -- The C compiler identification is GNU 11.4.0
+[0.406s] -- The CXX compiler identification is GNU 11.4.0
+[0.426s] -- Detecting C compiler ABI info
+[0.670s] -- Detecting C compiler ABI info - done
+[0.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.691s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.702s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.991s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.992s] -- Detecting CXX compile features
+[0.993s] -- Detecting CXX compile features - done
+[1.000s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.907s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.075s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.324s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.385s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.391s] -- Added test 'lint_cmake' to check CMake code style
+[2.392s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.395s] -- Added test 'xmllint' to check XML markup files
+[2.399s] -- Configuring done
+[2.407s] -- Generating done
+[2.411s] -- Build files have been written to: /home/rbe502/RBE550/build/pal_gripper_simulation
+[2.421s] Invoked command in '/home/rbe502/RBE550/build/pal_gripper_simulation' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:/opt/ros/humble /usr/bin/cmake /home/rbe502/RBE550/src/pal_gripper/pal_gripper_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rbe502/RBE550/install/pal_gripper_simulation
+[2.422s] Invoking command in '/home/rbe502/RBE550/build/pal_gripper_simulation': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_gripper_simulation -- -j2 -l2
+[2.554s] Invoked command in '/home/rbe502/RBE550/build/pal_gripper_simulation' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:/opt/ros/humble /usr/bin/cmake --build /home/rbe502/RBE550/build/pal_gripper_simulation -- -j2 -l2
+[2.672s] Invoking command in '/home/rbe502/RBE550/build/pal_gripper_simulation': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_gripper_simulation
+[2.700s] -- Install configuration: ""
+[2.703s] -- Execute custom install script
+[2.704s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/launch/gazebo.launch.py
+[2.732s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/launch/gripper_spawn.launch.py
+[2.763s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/launch/robot_state_publisher.launch.py
+[2.792s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/ament_index/resource_index/package_run_dependencies/pal_gripper_simulation
+[2.820s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/ament_index/resource_index/parent_prefix_path/pal_gripper_simulation
+[2.850s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/environment/ament_prefix_path.sh
+[2.884s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/environment/ament_prefix_path.dsv
+[2.908s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/environment/path.sh
+[2.937s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/environment/path.dsv
+[2.968s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/local_setup.bash
+[2.998s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/local_setup.sh
+[3.025s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/local_setup.zsh
+[3.053s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/local_setup.dsv
+[3.083s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/package.dsv
+[3.113s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/ament_index/resource_index/packages/pal_gripper_simulation
+[3.141s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/cmake/pal_gripper_simulationConfig.cmake
+[3.172s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/cmake/pal_gripper_simulationConfig-version.cmake
+[3.200s] -- Symlinking: /home/rbe502/RBE550/install/pal_gripper_simulation/share/pal_gripper_simulation/package.xml
+[3.233s] Invoked command in '/home/rbe502/RBE550/build/pal_gripper_simulation' returned '0': AMENT_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rbe502/RBE550/install/pal_gripper_description:/home/rbe502/RBE550/install/pal_urdf_utils:/home/rbe502/RBE550/install/pal_gripper_controller_configuration:/home/rbe502/RBE550/install/pal_gazebo_worlds:/opt/ros/humble /usr/bin/cmake --install /home/rbe502/RBE550/build/pal_gripper_simulation
