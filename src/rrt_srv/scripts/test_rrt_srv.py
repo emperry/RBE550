@@ -21,7 +21,7 @@ class TestRRTStar(Node):
 
         self.subscription = self.create_subscription(
             PoseStamped,
-            '/rrt_goal',
+            '/goal_pose',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
@@ -38,9 +38,11 @@ class TestRRTStar(Node):
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
         # Define source and target frames
-        self.source_frame = 'map'         # Typically the global frame
-        self.target_frame = 'odo,'  # Typically the robot's base frame
-        #self.timer = self.create_timer(1.0, self.get_pose_stamped)  # Call every 1 second
+        self.source_frame = 'map'       
+        self.target_frame = 'base_link'        # TODO is it this or base link 
+        self.timer = self.create_timer(1.0, self.get_pose_stamped)  # Call every 1 second
+        #TODO maybe use amcl pose since this sucks? 
+
         self.start = PoseStamped()
         self.start.pose.position.x = 250.0
         self.start.pose.position.y = 410.0
@@ -52,15 +54,27 @@ class TestRRTStar(Node):
         self.req.goal = goal
         self.req.map = self.map
         print("sending")
-        self.future = self.cli.call_async(self.req)
-        rclpy.spin_until_future_complete(self, self.future)
         
-        return self.future.result()
+        try:
+            self.future = self.cli.call(self.req)
+        except TimeoutError:
+            self.get_logger().error("Service call timed out")
+
 
     def listener_callback(self, msg):
         self.goal = msg
         response = self.send_request(self.goal)
+        print("here?")
+        #rclpy.spin_until_future_complete(self, self.future)
+
+        if self.future.result() is not None:
+            response = self.future.result()
+            self.get_logger().info(f'Received response: {response}')
+        else:
+            self.get_logger().error('Failed to call service')
+
         print(response)
+
 
     def map_calback(self, msg):
         print("map_received")
@@ -80,7 +94,7 @@ class TestRRTStar(Node):
             self.start = self.transform_to_pose_stamped(transform)
 
          # Log the PoseStamped
-            self.get_logger().info(f"PoseStamped:\n{self.start}")
+            #self.get_logger().info(f"PoseStamped:\n{self.start}")
 
         except (LookupException, ConnectivityException, ExtrapolationException) as e:
             self.get_logger().error(f"Failed to get transform: {str(e)}")
