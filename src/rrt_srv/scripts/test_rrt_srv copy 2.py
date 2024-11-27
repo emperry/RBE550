@@ -45,33 +45,6 @@ class TestRRTStar(Node):
 
         self.planner_timer = self.create_timer(2.0, self.get_path) 
 
-        # self.start = PoseStamped()
-        # self.start.pose.position.x = 0.0
-        # self.start.pose.position.y = 0.0
-
-        # self.goal = PoseStamped()
-        # self.goal.pose.position.x = 10.0
-        # self.goal.pose.position.y = 10.0
-
-        # self.map = OccupancyGrid()
-        # self.map.info.resolution = 0.5
-        # self.map.info.width = 10
-        # self.map.info.height = 10
-        # orig = Pose()
-        # orig.position.x = 0.0
-        # orig.position.y = 0.0
-        # self.map.info.origin = orig
-        # self.map.data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-
         self.start = None
         self.goal = None
         self.map = None
@@ -85,19 +58,15 @@ class TestRRTStar(Node):
         self.goal = None  
        
         self.future = self.cli.call_async(self.req)
-        self.future.add_done_callback(self.response_callback)
-        
-        #rclpy.spin_until_future_complete(self, self.future)
+        rclpy.spin_until_future_complete(self, self.future)
 
-
-    def response_callback(self, future):
         try:
-            response = future.result()
-            self.publisher_.publish(response.path)
-            self.get_logger().info(f"Service response received: {response}")
+            response = fut.result()
+            self.get_logger().info(f"Service response: {response.sum}")
+            return response
         except Exception as e:
             self.get_logger().error(f"Service call failed: {e}")
-
+            return None
 
 
     def listener_callback(self, msg):
@@ -112,6 +81,8 @@ class TestRRTStar(Node):
         if self.start is not None:
             if self.map is not None and self.goal is not None:
                 self.send_request()
+                self.publisher_.publish(self.future.result())
+                self.goal = None
 
     def get_pose_stamped(self):
         try:

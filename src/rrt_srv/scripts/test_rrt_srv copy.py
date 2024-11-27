@@ -3,7 +3,7 @@ import sys
 from rrt_srv.srv import Rrt
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import PoseStamped, Pose
+from geometry_msgs.msg import PoseStamped
 from nav_msgs.msg import Path, OccupancyGrid
 from tf2_ros import Buffer, TransformListener, LookupException, ConnectivityException, ExtrapolationException
 
@@ -15,7 +15,6 @@ class TestRRTStar(Node):
         self.cli = self.create_client(Rrt, 'rrt_srv_node')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
-        self.get_logger().info('connected to service')        
         self.req = Rrt.Request()
 
         self.publisher_ = self.create_publisher(Path, '/path', 10)
@@ -33,7 +32,8 @@ class TestRRTStar(Node):
             self.map_calback,
             10)
         self.map_subscription  # prevent unused variable warning
-         
+        
+        
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
@@ -43,75 +43,48 @@ class TestRRTStar(Node):
         self.timer = self.create_timer(1.0, self.get_pose_stamped)  # Call every 1 second
         #TODO maybe use amcl pose since this sucks? 
 
-        self.planner_timer = self.create_timer(2.0, self.get_path) 
-
-        # self.start = PoseStamped()
-        # self.start.pose.position.x = 0.0
-        # self.start.pose.position.y = 0.0
-
-        # self.goal = PoseStamped()
-        # self.goal.pose.position.x = 10.0
-        # self.goal.pose.position.y = 10.0
-
-        # self.map = OccupancyGrid()
-        # self.map.info.resolution = 0.5
-        # self.map.info.width = 10
-        # self.map.info.height = 10
-        # orig = Pose()
-        # orig.position.x = 0.0
-        # orig.position.y = 0.0
-        # self.map.info.origin = orig
-        # self.map.data = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        #    0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-
-        self.start = None
-        self.goal = None
-        self.map = None
+        self.start = PoseStamped()
+        self.start.pose.position.x = 250.0
+        self.start.pose.position.y = 410.0
 
 
-    def send_request(self):
+    def send_request(self, goal):
+        #print(self.map)
         self.req.start = self.start
-        self.req.goal = self.goal
+        self.req.goal = goal
         self.req.map = self.map
-        print("sending")     
-        self.goal = None  
-       
-        self.future = self.cli.call_async(self.req)
-        self.future.add_done_callback(self.response_callback)
+        print("sending")
         
-        #rclpy.spin_until_future_complete(self, self.future)
-
-
-    def response_callback(self, future):
-        try:
-            response = future.result()
-            self.publisher_.publish(response.path)
-            self.get_logger().info(f"Service response received: {response}")
-        except Exception as e:
-            self.get_logger().error(f"Service call failed: {e}")
-
+       
+        self.response = self.cli.call(self.req)
+        return self.response
 
 
     def listener_callback(self, msg):
         self.goal = msg
-                
+        response = self.send_request(self.goal)
+        print("here?")
+        #rclpy.spin_until_future_complete(self, self.future)
+
+        # while not self.future.done():
+        #     rclpy.spin_once(self, timeout_sec=0.1)
+        #     print("Waiting for response...")
+        
+        #response = self.future.result()
+        print(f"Received response: {response}")
+
+        if self.future.result() is not None:
+            response = self.future.result()
+            self.get_logger().info(f'Received response: {response}')
+        else:
+            self.get_logger().error('Failed to call service')
+
+        print(response)
+
 
     def map_calback(self, msg):
+        print("map_received")
         self.map = msg
-
-
-    def get_path(self):
-        if self.start is not None:
-            if self.map is not None and self.goal is not None:
-                self.send_request()
 
     def get_pose_stamped(self):
         try:
@@ -131,8 +104,6 @@ class TestRRTStar(Node):
 
         except (LookupException, ConnectivityException, ExtrapolationException) as e:
             self.get_logger().error(f"Failed to get transform: {str(e)}")
-
-                
 
     def transform_to_pose_stamped(self, transform):
         # Create a PoseStamped message

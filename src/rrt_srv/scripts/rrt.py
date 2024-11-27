@@ -60,7 +60,7 @@ class MinimalService(Node):
         path = Path()
     
         # Set the header
-        path.header.frame_id = "path"
+        path.header.frame_id = "map"
         path.header.stamp = rclpy.time.Time().to_msg()
         
         # Convert points to PoseStamped
