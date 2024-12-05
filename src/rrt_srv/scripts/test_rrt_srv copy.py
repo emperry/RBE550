@@ -17,11 +17,11 @@ class TestRRTStar(Node):
             self.get_logger().info('service not available, waiting again...')
         self.req = Rrt.Request()
 
-        self.publisher_ = self.create_publisher(Path, '/path', 10)
+        self.publisher_ = self.create_publisher(Path, '/rrt_path', 10)
 
         self.subscription = self.create_subscription(
             PoseStamped,
-            '/goal_pose',
+            '/rrt_pose',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning

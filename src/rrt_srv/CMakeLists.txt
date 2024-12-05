@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 install(PROGRAMS
   scripts/rrt.py
   scripts/test_rrt_srv.py
+  scripts/move_it_interface.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -27,7 +27,7 @@ class RRT_Star:
         self.radius = radius
         self.nodes = [self.start]
         self.grid_size = np.shape(grid)
-        self.iterations = 500000  #TODO probably increase
+        self.iterations = 10000  #TODO probably increase
         #plot_obs(grid)
         self.rrtstar()
 
@@ -114,7 +114,7 @@ class RRT_Star:
             path.append([node.x,node.y])
             node=node.parent
         path.append([self.start.x, self.start.y])
-        #plot_path(path,self.occupancy_grid, self.cell_size)
+        plot_path(path,self.occupancy_grid, self.cell_size)
         return path
 
     def rrtstar(self):
